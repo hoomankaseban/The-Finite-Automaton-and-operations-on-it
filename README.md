@@ -3,7 +3,7 @@ This project includes classes and methods that are built to perform various oper
 
 # Overview
 
-##Class DFA
+## Class DFA
 #### This class contains methods that are called on Deterministic Automaton/Automatons.
 
 ### Method "isAccepted"
@@ -31,11 +31,11 @@ This project includes classes and methods that are built to perform various oper
 #### Returns the supplement FA of the current FA.
 
 ### Method "op"
-####In this method, the following operations are implemented on two FAs.
-####***(union,Subscription,the difference)
-####***Detection of the subset of languages of two finite machines
-####***Determining that the languages of two finite machines are separate from each other
-####Note: operation op can be used in two ways: dfa1.op(dfa2) and DFA.op(dfa1,dfa2).
+#### In this method, the following operations are implemented on two FAs.
+#### ***(union,Subscription,the difference)
+#### ***Detection of the subset of languages of two finite machines
+#### ***Determining that the languages of two finite machines are separate from each other
+#### Note: operation op can be used in two ways: dfa1.op(dfa2) and DFA.op(dfa1,dfa2).
 
 ### Method "minimizing"
 #### Prints the minimized form of current FA in the output.
